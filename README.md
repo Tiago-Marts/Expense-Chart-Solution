@@ -33,7 +33,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [(https://chartchallenge.netlify.app)]
+- Live Site URL: https://chartchallenge.netlify.app
 
 ## My process
 
