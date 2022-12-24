@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root{
+    /*Colors*/
+    --primary-red: hsl(10, 79%, 65%);
+    --primary-cyan: hsl(186, 34%, 60%); 
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --pale-orange:hsl(33, 100%, 98%);
+
+    /*Typo stuff*/
+    --font-default:'DM Sans', sans-serif;
+    --size-1: 1.125rem;
+
+}
+
+*{
+    font-family: var(--font-default);
+    font-size: var(--size-1);
+}
+
+h1{
+    font-size: 1.5rem ; 
+    margin: 0;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cream);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

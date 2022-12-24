@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <link rel="stylesheet" href="assets/general.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <section class="content">
+    <section class="balance">
+      <section class="money">
+        <small> My balance</small>
+        <h1> $Money</h1>
+      </section>
+      <div class="logo"></div>
+    </section>
+    <section class="bottom">
+      <h1> Spending - Last 7 days</h1>
+      <section class="graph">
+        <div class="bars">
+          <small class="tooltip" data-visible="false" > 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+        <div class="bars">
+          <small class="tooltip" data-visible="false"> 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+        <div class="bars">
+          <small class="tooltip" data-visible="false"> 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+        <div class="bars"> 
+          <small class="tooltip" data-visible="false"> 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+        <div class="bars">
+          <small class="tooltip" data-visible="false"> 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+        <div class="bars">
+          <small class="tooltip" data-visible="false"> 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+        <div class="bars">
+          <small class="tooltip" data-visible="false"> 30</small>
+          <div class="expense-bar" data-amount=""></div>
+          <p class="day"></p>
+        </div>
+
+      </section>
+      <section class="total">
+        <section class="month">
+          <p class="subtext"> Total this month</p>
+          <h1>  $478.33</h1>
+        </section>
+        <section class="plus">
+          <p class="text"> +2.4%</p>
+          <p class="subtext"> from last month</p>
+        </section>
+      </section>
+    </section>
+  </section>
+</body>
+<script src="assets/script.js"></script>
+</html>
