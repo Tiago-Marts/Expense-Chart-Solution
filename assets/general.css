@@ -20,7 +20,7 @@
     font-size: var(--size-1);
 }
 
-h1{
+h2{
     font-size: 1.5rem ; 
     margin: 0;
 }
@@ -31,16 +31,14 @@ html, body{
 }
 
 body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     box-sizing: border-box;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: var(--cream);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
 }
 

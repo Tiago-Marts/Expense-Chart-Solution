@@ -36,7 +36,7 @@
     font-size: 0.75rem;
 }
 
-.balance h1{
+.balance h2{
     display: block;
 }
 
@@ -46,6 +46,7 @@
     aspect-ratio: 1;
     position: relative;
 }
+
 .logo::before{
     position: absolute;
     content: "";
@@ -87,7 +88,7 @@
 
 }
 
-.bottom > h1{
+.bottom > h2{
     text-align: left;
     width: 100%;
 }
@@ -114,6 +115,7 @@
     background-color: var(--cream);
 }
 
+/* Individual bars*/
 .bars{
     width: 2em;
     display: flex;
@@ -141,7 +143,7 @@
 }
 
 .expense-bar{
-    width: 2em;
+    width: 100%;
     background-color: var(--primary-red);
     border-radius: 0.25em;
     transform-origin: bottom;
@@ -158,10 +160,11 @@
     filter: brightness(120%);
 }
 
-.high{
+.today{
     background-color: var(--primary-cyan);
 }
 
+/* Tooltip*/
 .tooltip{
     width: fit-content;
     font-size: 0.75rem;
@@ -180,6 +183,7 @@
     transform: scale(1);
 }
 
+/* Total part*/
 .total{
     width: 100%;
     height: 40%;
@@ -198,12 +202,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .plus{
     align-items: flex-end;
-    justify-content: flex-end;
 }
 
 .text, .subtext{
@@ -217,5 +220,21 @@
 
 .subtext{
     color: var(--medium-brown);
+}
+
+/* Responsivity*/
+@media screen and (max-width: 500px){
+    .content{
+        width: 15em;
+        min-width: 305px;
+    }
+
+    .bars{
+        width: 1.55em;
+    }
+
+    .tooltip{
+        font-size: 0.6em;
+    }
 }
 
